@@ -49,4 +49,4 @@ if submit:
     st.write(getLLamaresponse(input_text, no_words, blog_style))
 
 
-st.markdown('Developed By: IRANZI INNOCENT)
+st.markdown('Developed By: IRANZI INNOCENT')
