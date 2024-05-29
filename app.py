@@ -42,9 +42,11 @@ with col2:
     blog_style = st.selectbox('Target',
                               ('Researchers', 'Data Scientist', 'Common People'),
                               index=0)
-    
 submit = st.button("Generate")
 
 ## Final response
 if submit:
     st.write(getLLamaresponse(input_text, no_words, blog_style))
+
+
+st.markdown('Developed By: IRANZI INNOCENT)
